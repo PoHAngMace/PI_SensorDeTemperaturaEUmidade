@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadastro de leitura</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="entradaDados.css">
+    </head>
+    <body>
+        <form method="post" action="adicionar.jsp">
+            <p>
+                <label for="codigo">Código:</label>
+                <input type="number" name="codigo" id="codigo">
+            </p>
+            <p>
+                <label for="hora">Hora da Leitura</label>
+                <input type="text" name="hora" id="hora">
+            </p>  
+            <p>
+                <label for="temperatura">Temperatura</label>
+                <input type="number" name="temperatura" id="temperatura">
+            </p> 
+            <p>
+                <label for="umidade">Umidade</label>
+                <input type="number" name="umidade" id="umidade">
+            </p>              
+            <p>
+                <input type="submit" value="Salvar">   
+            </p>
+        </form>    
+    </body>
+</html>
